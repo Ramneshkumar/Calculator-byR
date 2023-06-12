@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* width: 200vh; */
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background: linear-gradient(145deg, #592020, #203c64);
+    background-repeat: no-repeat;
+}
+/* h1{
+    color: aqua;
+    text-align: center;
+    font-size: 4.0rem;
+    border: .1rem solid red;
+    background-color:rgb(139, 98, 98);
+} */
+.ramnesh{
+    border: .6rem solid #7b97cf;
+    padding: 1.0rem;
+    border-radius:1.5rem;
+    background: transparent;
+    box-shadow: 0 .3rem 1.5rem rgba(113, 115,119, 10);
+}
+input{ 
+    
+    width: 30.0rem; 
+    border: none;
+    padding: 1.0rem;
+    margin: 1.0rem;
+    background: transparent;
+    box-shadow: 0 -.5rem 1.5rem; rgbs(84, 84, 84, 1);
+    font-size: 4.0rem;
+    text-align: right;
+    cursor: pointer;
+    color:rgb(234, 236, 230);
+
+}
+input::placeholder{
+    color: rgb(168, 235, 80);
+}
+button{
+    border: none;
+    width: 6.0rem;
+    height: 6.0rem;
+    margin: 1.0rem;
+    border-radius: 5.0rem;
+    background: transparent;
+    color: #ffffff;
+    font-size: 2.0rem;
+    box-shadow: -.8rem -.8rem 1.5rem rgba(255, 255, 255, .2);
+    cursor: pointer;
+    
+}
+.btn{
+    color:red; 
+    font-size:2.5rem;  
+    font-weight: 200;
+}
+.btn:hover{
+    background-color: rgb(250, 132, 132);
+
+}
+.btno{
+    font-size: 3.5rem;
+}
+.btno:hover{
+    background-color: rgb(194, 196, 190);
+}
+.equal{
+    color:orange;
+    background-color: green;
+}
+.equal:hover{
+    background: greenyellow;
+}
+html{
+    font-size: 62.5%;
+}
+@media(max-width:999px){
+    html{font-size: 55%;
+}
+}
+@media(max-width:768px){
+    html{
+        font-size: 45%;
+    }
+}
